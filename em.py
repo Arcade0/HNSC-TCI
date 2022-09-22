@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """ Implementation of Expectation-maximization(EM) algorithm. In this paper this algorithm is used to infer protein's state based on tumor cell mutation
-and differential expression genes. """
+and differential expression genes(DEG). If DEG is discrete value, please used em() function, otherwise please use gmm() function"""
 
 import numpy as np
 import pandas as pd
